@@ -1,0 +1,10 @@
+# Advising-Program
+In the projects for this course, the problem being solved was the development of a Course Advising Software. The software needed to store information about courses, including their course numbers, names, and prerequisites. It should be able to load data from a file, display a list of courses, and provide information about specific courses and their prerequisites.
+
+To approach the problem, I considered the requirements and constraints and decided to use a hash table as the main data structure to store the course objects. The hash table allows for efficient retrieval of course information based on course numbers, which is a key requirement of the software. I implemented the hash table using a map container in C++, where the course number serves as the key and the course object as the value. Understanding data structures is crucial for efficient problem solving, memory management, and algorithm design. 
+
+Throughout the development process, I ran into roadblocks such as file handling, parsing data from the file, and ensuring the accuracy of the program logic. To overcome these roadblocks, I applied debugging techniques and watched tutorials.
+
+Working on this project has expanded my approach to designing software and developing programs. I learned the value of choosing appropriate data structures to efficiently solve a problem. Understanding data structures helps in optimizing the program's performance and providing the required functionality. In this project, by carefully selecting a hash table as the main data structure, I achieved efficient retrieval of course information and streamlined the program's overall execution.
+
+My work on this project has changed the way I write programs that are maintainable, readable, and adaptable. I focused on modularizing the code into functions with clear responsibilities, which improves code readability and maintainability. I also used error handling and input validation to handle unexpected situations. Additionally, I separated the core logic from the user interface, allowing for easier modifications or additions to the software's features in the future.
